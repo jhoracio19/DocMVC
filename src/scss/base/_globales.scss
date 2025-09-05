@@ -10,6 +10,8 @@ html {
 }
 body {
     font-family: v.$fuente_textos;
+    background-color: v.$gray-lither;
+    color: v.$gray-dark;
     font-size: 1.6rem;
     min-height: 100%;
 }
