@@ -1,0 +1,84 @@
+@use '../base/variables' as v;
+
+.servicios {
+  padding: 5rem 2rem;
+  background-color: #f9fbff;
+
+  h2 {
+    font-size: 2.25rem;
+    font-weight: 800;
+    text-align: center;
+    color: #111827;
+    margin-bottom: 0.5rem;
+  }
+
+  .descripcion {
+    text-align: center;
+    color: #6b7280;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+
+  .card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 25px -5px rgba(0,0,0,0.1);
+    }
+
+    .icono {
+      background-color: #e0edff;
+      display: inline-block;
+      padding: 1rem;
+      border-radius: 9999px;
+      margin-bottom: 1rem;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+      color: #111827;
+    }
+
+    p {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border: 1px solid #d1d5db;
+      border-radius: 0.5rem;
+      color: #111827;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #f3f4f6;
+      }
+    }
+  }
+}

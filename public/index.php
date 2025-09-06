@@ -13,7 +13,7 @@ use Controllers\LoginController;
 $router = new Router();
 
 // Home
-$router -> get('/', [HomeController::class, 'home']);
+$router -> get('/', [HomeController::class, 'index']);
 $router -> get('/reviews', [HomeController::class, 'reviews']);
 
 // Enfermedad
