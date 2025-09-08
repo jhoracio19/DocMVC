@@ -1,0 +1,103 @@
+.contacto {
+    background-color: #f9fbff;
+    padding: 4rem 2rem;
+
+    .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+
+    h2 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: #111827;
+        margin-bottom: 0.5rem;
+    }
+
+    .descripcion {
+        color: #6b7280;
+        font-size: 1rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .contenido {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .info-contacto, .mapa {
+        background-color: #fff;
+        border-radius: 1rem;
+        padding: 2rem;
+        flex: 1;
+        min-width: 320px;
+        max-width: 500px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+
+    h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #111827;
+        margin-bottom: 1.5rem;
+    }
+
+    .item {
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+
+        .icono {
+            font-size: 1.5rem;
+            background-color: #e0e7ff;
+            color: #2563eb;
+            border-radius: 50%;
+            padding: 0.5rem;
+        }
+
+        strong {
+            color: #111827;
+        }
+
+        div {
+            color: #374151;
+            font-size: 0.95rem;
+            }
+        }
+    }
+
+    .mapa {
+        text-align: center;
+
+        .mapa-placeholder {
+        background-color: #e5e7eb;
+        height: 200px;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #9ca3af;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        }
+
+        .btn-primario {
+        background-color: #2563eb;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+
+        &:hover {
+            background-color: #1d4ed8;
+                }
+            }
+        }
+    }
+}
