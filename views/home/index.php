@@ -12,7 +12,7 @@
             <a href="#contacto">Contacto</a>
         </nav>
 
-        <a href="#" class="btn-login">Iniciar Sesión</a>
+        <a href="/" class="btn-login_"></a>
     </div>
 </header>
 
@@ -115,32 +115,35 @@
         <h2>Testimonios de Pacientes</h2>
         <p class="descripcion">Lo que dicen nuestros pacientes sobre su experiencia</p>
 
-        <div class="cards">
+                <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+        <div class="elfsight-app-7cf088b5-c22a-4d92-9184-088e3e596af7" data-elfsight-app-lazy></div>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <!-- <div class="cards">
             <div class="card">
                 <h3>María González</h3>
                 <span class="fecha">Hace 2 semanas</span>
                 <div class="estrellas">★★★★★</div>
                 <p><em>"Excelente atención, el Dr. me ayudó mucho con mi problema de audición. Muy profesional y amable."</em></p>
-            </div> <!-- .card -->
-
+            </div> .card -->
+<!-- 
                         <div class="card">
                 <h3>Carlos Rodríguez</h3>
                 <span class="fecha">Hace 1 mes</span>
                 <div class="estrellas">★★★★★</div>
                 <p><em>"La cirugía de nariz fue un éxito total. El doctor explicó todo muy bien y el seguimiento fue perfecto."</em></p>
-            </div> <!-- .card -->
-
+            </div> .card -->
+<!-- 
             <div class="card">
                 <h3>Ana Martínez</h3>
                 <span class="fecha">Hace 1 mes</span>
                 <div class="estrellas">★★★★★</div>
                 <p><em>"Muy recomendado. Solucionó mi problema de garganta que tenía hace años. Gracias Doctor!!."</em></p>
-            </div> <!-- .card -->
+            </div> .card -->
 
         </div> <!-- .cards -->
 
         <div class="centrado">
-            <a href="#" class="btn-secundario">Ver Más Testimonios</a>
+            <!-- <a href="#" class="btn-secundario">Ver Más Testimonios</a> -->
         </div>
     </div>
 </section>
@@ -219,7 +222,7 @@
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#doctor">Acerca del Doctor</a></li>
                     <li><a href="https://wa.me/2461567821">Agendar Cita</a></li>
-                    <li><a href="/admin">Panel Admin</a></li>
+                    <!-- <li><a href="/">Panel Admin</a></li> -->
                 </ul>
             </div>
 

@@ -1,0 +1,39 @@
+.creditos {
+  background-color: #f9fafb;
+  padding: 3rem 2rem;
+
+  .contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+
+    p {
+      margin-bottom: 2rem;
+      color: #6b7280;
+      font-size: 1.05rem;
+    }
+
+    .lista-creditos {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+
+      li {
+        margin-bottom: 0.75rem;
+
+        a {
+          color: #2563eb;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

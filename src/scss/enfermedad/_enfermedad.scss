@@ -1,3 +1,4 @@
+
 .intro-enfermedades {
     background-color: #f9fbff;
     padding: 4rem 2rem;
@@ -6,8 +7,12 @@
         max-width: 1280px;
         margin: 0 auto;
         text-align: center;
+        position: relative;
 
-        .volver {
+        .volver {      
+            position: absolute; // <- NUEVO
+            top: 1rem;           // <- NUEVO
+            left: 2rem;
             text-align: left;
             margin-bottom: 1rem;
 
@@ -89,12 +94,25 @@
                 font-size: 1.1rem;
                 margin-bottom: 0.5rem;
             }
-            .titulo-azul{
+
+                        .titulo-azul{
                 color: #2563eb;
             }
 
             .titulo-rojo{
                 color: #b91c1c;
+            }
+
+            .titulo-verde{
+                color: #059669;
+            }
+
+            .titulo-naranja{
+                color: #d97706;
+            }
+
+            .titulo-morado{
+                color: #7c3aed;
             }
 
             p {
@@ -134,4 +152,73 @@
             }
         }
     }
+}
+.imagen-placeholder img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+.cta-enfermedades {
+  background-color: #eff6ff; // azul claro muy sutil
+  border: 1px solid #bfdbfe;
+  border-radius: 1rem;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 1280px;
+  box-shadow: 0 8px 16px rgba(0, 123, 255, 0.05);
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #4b5563;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .btn {
+      padding: 0.9rem 2rem;
+      font-weight: 600;
+      font-size: 1rem;
+      border-radius: 0.75rem;
+      text-decoration: none;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btn-primario {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+
+      &:hover {
+        background-color: #1d4ed8;
+      }
+    }
+
+    .btn-secundario {
+      background-color: white;
+      color: #111827;
+      border: 1px solid #d1d5db;
+
+      &:hover {
+        background-color: #f3f4f6;
+      }
+    }
+  }
 }

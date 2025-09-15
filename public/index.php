@@ -15,6 +15,8 @@ $router = new Router();
 // Home
 $router -> get('/', [HomeController::class, 'index']);
 $router -> get('/reviews', [HomeController::class, 'reviews']);
+$router -> get('/creditos', [HomeController::class, 'creditos']);
+
 
 // Enfermedad
 $router -> get('/enfermedades', [EnfermedadController::class, 'index']);

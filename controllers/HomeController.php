@@ -12,4 +12,11 @@ class HomeController{
 
     ]);
     }
+
+    public static function creditos(Router $router){
+
+    $router -> render('home/creditos',[
+
+    ]);
+    }
 }
