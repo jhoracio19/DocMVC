@@ -1,7 +1,7 @@
 <header class="navbar">
     <div class="navbar-container">
         <div class="logo">
-            <img src="" alt="Logo Dr.Roberto">
+            <a href="/"><img src="/assets/images/home/logo.png" alt="Logo Dr.Roberto"></a>
         </div>
 
         <nav class="nav-links">
@@ -25,16 +25,18 @@
         Cuidado Especializado para tu <span class="azul">Salud Auditiva</span>
         </h1>
         <p>
-        Más de 15 años de experiencia en otorrinolaringología. Tratamientos modernos y atención personalizada para cada paciente.
+        Más de <?php echo obtenerAniosExperiencia(); ?> años de experiencia en otorrinolaringología. Tratamientos modernos y atención personalizada para cada paciente.
         </p>
     <div class="acciones">
-        <a href="#" class="btn-primario">Agendar Cita</a>
-        <a href="tel:+52" class="btn-secundario">
-        <i class="fas fa-phone-alt"></i>Llamar Ahora
+        <a href="https://wa.me/2461567821" class="btn-primario">Agendar Cita</a>
+        <a href="tel:+522461567821" class="btn-secundario">
+        <i class="fas fa-phone-alt" aria-hidden="true"></i>Llamar Ahora
         </a>
     </div>
     </div>
-        <div class="hero-imagen"></div>
+        <div class="hero-imagen">
+            <img class="hero-imagen"  src="/assets/images/home/dr_roberto.jpg" alt="Foto del Doctor">
+        </div>
     </div>
 </section>
 
@@ -50,17 +52,17 @@
             <!-- Card 1-->
             <div class="card">
                 <div class="icono">
-                    <img src="/" alt="Icono oído">
+                    <i class="fa-solid fa-ear-listen" aria-hidden="true"></i>
                 </div>
                 <h3>Enfermedades del Oído, Garganta y Nariz</h3>
                 <p>Diagnóstico y tratamiento de patologías comunes del sistema otorrinolaringológico</p>
-                <a href=" " class="btn">Ver Enfermedades</a>
+                <a href="/enfermedades" class="btn">Ver Enfermedades</a>
             </div>
 
                         <!-- Card 2-->
             <div class="card">
                 <div class="icono">
-                    <img src="/" alt="Icono cirugía">
+                    <i class="fa-solid fa-stethoscope" aria-hidden="true"></i>
                 </div>
                 <h3>Cirugías Médicas</h3>
                 <p>Procedimientos quirúrgicos especializados para resolver problemas estructurales</p>
@@ -70,7 +72,7 @@
                         <!-- Card 3-->
             <div class="card">
                 <div class="icono">
-                    <img src="/" alt="Icono estético">
+                    <i class="fa-solid fa-user-nurse" aria-hidden="true"></i>
                 </div>
                 <h3>Procedimientos Estéticos</h3>
                 <p>Tratamientos estéticos faciales quirúrgicos y no quirúrgicos</p>
@@ -90,18 +92,18 @@
         <div class="contenido">
             <div class="doctor-imagen">
                 <!-- TODO: Aqui ira la foto del doctor-->
-                <img src="/" alt="Foto del doctor">
+                <img src="/assets/images/home/dr_roberto.jpg" alt="Foto del doctor">
             </div>
             <div class="doctor-info">
                 <span class="certificado">Certificado</span>
                 <h2>Acerca del Doctor</h2>
                 <p>
-                    Dr. Roberto Herrera es un otorrinolaringólogo certificado con más de __ años de experiencia en el diagnóstico y tratamiento de transtornos del oído, nariz y garganta.
+                    Dr. Roberto Herrera es un otorrinolaringólogo certificado con más de <?php echo obtenerAniosExperiencia(); ?> años de experiencia en el diagnóstico y tratamiento de transtornos del oído, nariz y garganta.
                 </p>
                 <ul class="doctor-logros">
-                    <li><i></i> Certificado por el Consejo Mexicano de Otorrinolaringología</li>
-                    <li><i></i> Especialización en Cirgugía Endoscópica Nasal</li>
-                    <li><i></i> Miembro de la Sociedad Mexicana de Otorrinolaringología</li>
+                    <li><i class="fas fa-award"></i> Certificado por el Consejo Mexicano de Otorrinolaringología</li>
+                    <li><i class="fas fa-award"></i> Especialización en Cirgugía Endoscópica Nasal</li>
+                    <li><i class="fas fa-award"></i> Miembro de la Sociedad Mexicana de Otorrinolaringología</li>
                 </ul>
             </div>
         </div>
@@ -157,7 +159,7 @@
             <span class="icono"><i class="fas fa-phone-alt"></i></span>
             <div>
             <strong>Teléfono</strong><br />
-            +52 55 1234 5678
+            +52 (246) 156 7821
             </div>
         </div>
 
@@ -165,7 +167,7 @@
             <span class="icono"><i class="fas fa-envelope"></i></span>
         <div>
             <strong>Email</strong><br />
-            contacto@drotorrino.com
+            dr.herreraorl@hotmail.com
         </div>
         </div>
 
@@ -173,8 +175,8 @@
             <span class="icono"><i class="fas fa-map-marker-alt"></i></span>
             <div>
             <strong>Dirección</strong><br />
-            Av. Reforma 123, Col. Centro<br />
-            Ciudad de México, CDMX
+            G. Valle 18, Centro, 9000 <br />
+            Tlaxcala de Xicohténcatl, Tlax
             </div>
         </div>
 
@@ -182,8 +184,7 @@
             <span class="icono"><i class="fas fa-clock"></i></span>
             <div>
             <strong>Horarios</strong><br />
-            Lun - Vie: 9:00 AM - 6:00 PM<br />
-            Sáb: 9:00 AM - 2:00 PM
+            Lun - Vie: 11:00 AM - 6:00 PM<br />
             </div>
         </div>
         </div>
@@ -192,9 +193,9 @@
         <div class="mapa">
         <h3>Mapa de Ubicación</h3>
         <div class="mapa-placeholder">
-            <i class="fas fa-map-pin"></i>
+            <iframe class="mapa-placeholder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.995653607893!2d-98.2271652!3d19.325994899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfd92e61804277%3A0x58dbcc22dd8caa0f!2sCLINICA%20DE%20OTORRINOLARINGOLOGIA!5e0!3m2!1ses-419!2smx!4v1739245872811!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <a href="#" class="btn-primario">Agendar Cita Ahora</a>
+        <a href="https://wa.me/2461567821" class="btn-primario">Agendar Cita Ahora</a>
         </div>
     </div>
     </div>
@@ -207,9 +208,9 @@
 
             <div class="footer-col">
                 <h3 class="logo">
-                    <img src="" alt="Logo">
+                    <a href="/"><img src="/assets/images/home/logo.png" alt="Logo Dr.Roberto"></a>
                 </h3>
-                <p>Especialista en otorrinolaringología con más de __ años de experiencia.</p>
+                <p>Especialista en otorrinolaringología con más de <?php echo obtenerAniosExperiencia(); ?> años de experiencia.</p>
             </div>
 
             <div class="footer-col">
@@ -217,17 +218,27 @@
                 <ul>
                     <li><a href="#servicios">Servicios</a></li>
                     <li><a href="#doctor">Acerca del Doctor</a></li>
-                    <li><a href="#contacto">Agendar Cita</a></li>
+                    <li><a href="https://wa.me/2461567821">Agendar Cita</a></li>
                     <li><a href="/admin">Panel Admin</a></li>
                 </ul>
             </div>
 
             <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="footer-redes">
+                    <a href="https://www.facebook.com/otorrinotlaxcala?locale=es_LA" class="facebook" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/otorrino_robertoherrera/" class="instagram" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/2461567821" class="whatsapp" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="mailto:dr.herreraorl@hotmail.com?subject=Consulta&body=Hola, quiero más información sobre sus servicios." class="email" target="_blank" aria-label="Correo"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
                 <h4>Contacto</h4>
                 <ul>
-                    <li>+52 </li>
-                    <li>contacto@drotorrino.com</li>
-                    <li>Av.</li>
+                    <li>+52 (246) 156 7821</li>
+                    <li>dr.herreraorl@hotmail.com</li>
+                    <li>G. Valle 18, Centro, 9000 Tlaxcala de Xicohténcatl, Tlax</li>
                 </ul>
             </div>
 

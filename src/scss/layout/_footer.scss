@@ -76,3 +76,82 @@
         }
     }
 }
+
+.footer-redes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+
+    a {
+        font-size: 2rem;
+        color: #cbd5e1;
+        transition: color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            color: #3b82f6;
+            transform: scale(1.2);
+        }
+    }
+}
+@media (max-width: 480px) {
+.footer p {
+  max-width: 280px;
+  margin-inline: auto;
+}
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem; // más separación vertical entre columnas
+    }
+
+    .footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    ul {
+        padding: 0;
+
+    li {
+        margin-bottom: 0.75rem;
+    }
+    }
+
+    h3.logo img {
+        color: white;
+        font-size: 2rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+    }
+}
+
+    .footer-redes {
+        justify-content: center;
+        margin-top: 1rem;
+
+        a {
+        font-size: 1.75rem;
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding-top: 1rem;
+    }
+}
+
+.footer-redes a:hover {
+    transform: scale(1.1);
+}
+.footer-redes a.facebook:hover { color: #1877f2; }
+.footer-redes a.instagram:hover { color: #e1306c; }
+.footer-redes a.whatsapp:hover { color: #25d366; }
+.footer-redes a.email:hover { color: #ea4335; }

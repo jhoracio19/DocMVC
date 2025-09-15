@@ -17,14 +17,23 @@
     min-width: 300px;
   }
 
+  
+
   .hero-imagen {
     flex: 1;
     min-width: 300px;
     max-width: 500px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    max-height: 400px;
     background-color: #e5e7eb;
     border-radius: 1rem;
   }
+  .hero-imagen img {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  }
+
 
   .tag {
     background-color: #e0e7ff;
@@ -93,3 +102,9 @@
   }
 }
 
+@media (max-width: 768px) {
+  .acciones a {
+    display: block;
+    margin-bottom: 12px;
+  }
+}
