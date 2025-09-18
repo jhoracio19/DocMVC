@@ -1,8 +1,8 @@
+
+<?php include_once __DIR__ . "/../templates/header.php"; ?>
+
 <section class="intro-enfermedades">
     <div class="contenedor">
-        <div class="volver">
-            <a href="/">Volver al inicio</a>
-        </div>
         <h1>Enfermedades Comunes</h1>
         <p>Conoce las patologías más frecuentes del oído, garganta y nariz con explicaciones claras y síntomas principales</p>
     </div>
@@ -431,7 +431,9 @@
 
             <!-- Tumores nasales -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/tumores2.webp" alt="Tumores nasales">
+                </div>
                 <h3 class="titulo-verde">Tumores nasales</h3>
                 <p>Crecimientos anormales en la cavidad nasal o senos paranasales, que pueden ser benignos o malignos.</p>
                 <strong>Síntomas principales:</strong>
@@ -445,7 +447,9 @@
 
             <!-- Pólipos nasales -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/polipos.webp" alt="Pólipos nasales">
+                </div>
                 <h3 class="titulo-verde">Pólipos nasales</h3>
                 <p>Crecimientos benignos en el revestimiento de la nariz o los senos paranasales que obstruyen la respiración.</p>
                 <strong>Síntomas principales:</strong>
@@ -470,7 +474,9 @@
 
             <!-- Pérdida de la voz -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/perdida.webp" alt="Pérdida de la voz">
+                </div>
                 <h3 class="titulo-naranja">Pérdida de la voz</h3>
                 <p>Disfonía o afonía causada por inflamación, sobreuso de las cuerdas vocales o infecciones de la laringe.</p>
                 <strong>Síntomas principales:</strong>
@@ -484,7 +490,9 @@
 
             <!-- Pólipos y nódulos -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/nodulos.webp" alt="Pólipos y nódulos de cuerdas bucales">
+                </div>
                 <h3 class="titulo-naranja">Pólipos y nódulos de cuerdas bucales</h3>
                 <p>Crecimientos benignos en las cuerdas vocales asociados al sobreuso de la voz o irritación crónica.</p>
                 <strong>Síntomas principales:</strong>
@@ -498,7 +506,9 @@
 
             <!-- Cáncer de laringe -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/cancer.webp" alt="Cáncer de laringe">
+                </div>
                 <h3 class="titulo-naranja">Cáncer de laringe</h3>
                 <p>Enfermedad maligna que afecta las cuerdas vocales o la mucosa laríngea, relacionada con el tabaquismo y alcoholismo.</p>
                 <strong>Síntomas principales:</strong>
@@ -523,7 +533,9 @@
 
             <!-- Abscesos de cuello -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/abscesos.webp" alt="Abscesos de cuello">
+                </div>
                 <h3 class="titulo-morado">Abscesos de cuello</h3>
                 <p>Acumulación de pus en los tejidos del cuello debido a infecciones bacterianas.</p>
                 <strong>Síntomas principales:</strong>
@@ -537,7 +549,9 @@
 
             <!-- Tumores de cuello -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/cuello.webp" alt="Tumores de cuello">
+                </div>
                 <h3 class="titulo-morado">Tumores de cuello</h3>
                 <p>Crecimientos anormales que pueden ser benignos o malignos, afectando ganglios linfáticos u otras estructuras.</p>
                 <strong>Síntomas principales:</strong>
@@ -551,7 +565,9 @@
 
             <!-- Parotiditis -->
             <div class="card-enfermedad">
-                <div class="imagen-placeholder"></div>
+                <div class="imagen-placeholder">
+                    <img loading="lazy" src="/assets/images/enfermedades/parotiditis.webp" alt="Parotiditis">
+                </div>
                 <h3 class="titulo-morado">Parotiditis</h3>
                 <p>Inflamación de la glándula parótida causada por infección viral (como paperas) o bacteriana.</p>
                 <strong>Síntomas principales:</strong>
@@ -568,24 +584,16 @@
 </section>
 
 <section class="cta-enfermedades">
-  <div class="contenedor">
-    <h2>¿Tienes alguno de estos síntomas?</h2>
-    <p>No esperes más. Un diagnóstico temprano es clave para un tratamiento efectivo. Agenda tu consulta con nuestro especialista.</p>
-    <div class="botones">
-      <a href="https://wa.me/2461567821" class="btn btn-primario">Agendar Consulta</a>
-      <a href="/" class="btn btn-secundario">Volver al Inicio</a>
+    <div class="contenedor">
+        <h2>¿Tienes alguno de estos síntomas?</h2>
+        <p>No esperes más. Un diagnóstico temprano es clave para un tratamiento efectivo. Agenda tu consulta con nuestro especialista.</p>
+        <div class="botones">
+            <a href="https://wa.me/2461567821" class="btn btn-primario">Agendar Consulta</a>
+            <a href="/" class="btn btn-secundario">Volver al Inicio</a>
+        </div>
     </div>
-  </div>
 </section>
 
 
 
-<div class="footer-bottom">
-    <p>
-    &copy; <?php echo date('Y'); ?> Dr. Roberto Herrera. Todos los derechos reservados. —
-    <a href="/creditos">
-        <i class="fa-solid fa-image"></i> Créditos de imágenes
-    </a>
-
-    </p>
-</div>
+<?php include_once __DIR__ . "/../templates/footer.php"; ?>

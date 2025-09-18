@@ -28,6 +28,14 @@
     <li><a href="https://www.freepik.es/foto-gratis/paciente-sometido-procedimiento-microagujas_25219492.htm">Imagen de freepik</a></li>
     <li><a href="https://www.freepik.es/foto-gratis/close-up-mujer-adulta-sintoma-enfermedad_7032364.htm">Imagen de freepik</a></li>
     <li><a href="https://www.freepik.es/foto-gratis/mujer-alergica-enferma-sonarse-nariz-tener-gripe-o-resfriarse-estornudar-panuelo-posar-ojos-cerrados-aislados-blanco-sosteniendo-aerosol-nasal-mano_8761393.htm">Imagen de user18526052 en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/senora-joven-que-tiene-fuerte-dolor-migrana-frota-ojos-camiseta-mangas-beige-ve-triste-vista-frontal_12940296.htm">Imagen de 8photo en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/medico-otorrinolaringologo-revisando-nariz-otoscopio-paciente-hospital-concepto-alergia-sinusitis-congestion-nasal_27155629.htm">Imagen de stefamerpik en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/mujer-joven-llamando-alguien-chaqueta-verde-mirando-concentrado-vista-frontal-espacio-texto_12631287.htm">Imagen de 8photo en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/primer-plano-paciente-que-hace-prueba-enfermedad-coronavirus_26143914.htm">Imagen de Drazen Zigic en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/vista-lateral-doctor-verificar-paciente_39571449.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/mujer-joven-sosteniendo-su-garganta-pared-negra_16927875.htm">Imagen de azerbaijan_stockers en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/vista-lateral-paciente-chequeo-medico_34728758.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/vista-frontal-joven-doctora-traje-medico-sobre-fondo-amarillo_13705028.htm">Imagen de mdjaff en Freepik</a></li>
 
 
     </ul>
