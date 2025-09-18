@@ -589,7 +589,6 @@
         <p>No esperes más. Un diagnóstico temprano es clave para un tratamiento efectivo. Agenda tu consulta con nuestro especialista.</p>
         <div class="botones">
             <a href="https://wa.me/2461567821" class="btn btn-primario">Agendar Consulta</a>
-            <a href="/" class="btn btn-secundario">Volver al Inicio</a>
         </div>
     </div>
 </section>

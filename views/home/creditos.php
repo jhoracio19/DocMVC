@@ -36,6 +36,16 @@
     <li><a href="https://www.freepik.es/foto-gratis/mujer-joven-sosteniendo-su-garganta-pared-negra_16927875.htm">Imagen de azerbaijan_stockers en Freepik</a></li>
     <li><a href="https://www.freepik.es/foto-gratis/vista-lateral-paciente-chequeo-medico_34728758.htm">Imagen de freepik</a></li>
     <li><a href="https://www.freepik.es/foto-gratis/vista-frontal-joven-doctora-traje-medico-sobre-fondo-amarillo_13705028.htm">Imagen de mdjaff en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/dentista-asistente-cirugia-clinica-dental_7607636.htm">Imagen de KamranAydinov en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/recortar-manos-tocando-ganglios-linfaticos-paciente_3029808.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/medico-que-usa-espatula-inspeccion-examinar-garganta-paciente-medico-otorrinolaringologo-que-hace-examen-garganta-paciente-que-abrio-boca-chequear-garganta_27156298.htm">Imagen de stefamerpik en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/vista-lateral-medico-revisando-al-paciente-antes-rinoplastia_25123500.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/mujer-doctor-estudio-cosmetologia_7724818.htm">Imagen de prostooleh en Freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/mujer-prepara-cirugia-nariz_28725695.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/retrato-mujer-joven-practicando-yoga-facial-jovenes_48049134.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/vista-lateral-mujer-joven-posando-estudio_33754699.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/tratamiento-belleza-antienvejecimiento_18992357.htm">Imagen de freepik</a></li>
+    <li><a href="https://www.freepik.es/foto-gratis/joven-paciente-clinica-sufrio-neumonia-esta-tosendo-medico-escucha-silbido-pulmones-estetoscopio_28001649.htm">Imagen de stefamerpik en Freepik</a></li>
 
 
     </ul>

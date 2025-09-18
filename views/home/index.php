@@ -1,20 +1,4 @@
-<header class="navbar">
-    <div class="navbar-container">
-        <div class="logo">
-            <a href="/"><img src="/assets/images/home/logo.png" alt="Logo Dr.Roberto"></a>
-        </div>
-
-        <nav class="nav-links">
-            <a href="#inicio">Inicio</a>
-            <a href="#servicios">Servicios</a>
-            <a href="#doctor">Acerca del <br>Doctor</a>
-            <a href="#testimonios">Testimonios</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-
-        <a href="/" class="btn-login_"></a>
-    </div>
-</header>
+<?php include_once __DIR__ . "/../templates/header.php"; ?>
 
 <section id="inicio" class="hero">
     <div class="contenedor">
@@ -66,7 +50,7 @@
                 </div>
                 <h3>Cirugías Médicas</h3>
                 <p>Procedimientos quirúrgicos especializados para resolver problemas estructurales</p>
-                <a href=" " class="btn">Ver Cirugías</a>
+                <a href="/cirugias" class="btn">Ver Cirugías</a>
             </div>
 
                         <!-- Card 3-->

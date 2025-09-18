@@ -9,7 +9,7 @@ class EnfermedadController{
     public static function index(Router $router){
 
     $router -> render('enfermedad/index',[
-
+        'titulo' => 'Enfermedades'
     ]);
     }
 }
