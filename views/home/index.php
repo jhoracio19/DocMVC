@@ -60,7 +60,7 @@
                 </div>
                 <h3>Procedimientos Estéticos</h3>
                 <p>Tratamientos estéticos faciales quirúrgicos y no quirúrgicos</p>
-                <a href=" " class="btn">Ver Procesos Estéticos</a>
+                <a href="/esteticos" class="btn">Ver Procesos Estéticos</a>
             </div>
 
 
