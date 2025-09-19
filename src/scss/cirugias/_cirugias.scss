@@ -1,3 +1,4 @@
+
 .intro-cirugias {
     background-color: #f9fbff;
     padding: 4rem 2rem;
@@ -201,3 +202,143 @@
   }
 }
 
+$verde-claro: #ecfdf5;
+$verde-borde: #bbf7d0;
+$verde-icono: #22c55e;
+
+$azul-claro: #eff6ff;
+$azul-borde: #bfdbfe;
+$azul-icono: #3b82f6;
+
+$gris-fondo: #f9fbff;
+$gris-texto: #4b5563;
+$azul-btn: #2563eb;
+
+.cirugia-info {
+  margin-top: 3rem;
+  padding: 11rem;
+
+
+  .bloques-cirugia {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .bloque {
+      flex: 1 1 48%;
+      border-radius: 12px;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          position: relative;
+          padding-left: 1.5rem;
+          margin-bottom: 0.75rem;
+
+          &::before {
+            position: absolute;
+            left: 0;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .bloque-antes {
+      background-color: $verde-claro;
+      border: 1px solid $verde-borde;
+
+      ul li::before {
+        content: "✔";
+        color: $verde-icono;
+      }
+    }
+
+    .bloque-despues {
+      background-color: $azul-claro;
+      border: 1px solid $azul-borde;
+
+      ul li::before {
+        content: "●";
+        color: $azul-icono;
+      }
+    }
+  }
+
+  .evaluacion {
+    margin-top: 3rem;
+    background-color: $azul-claro;
+    border-radius: 12px;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    border: 1px solid $azul-borde;
+
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: $gris-texto;
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+    }
+
+    .botones {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+
+      .btn-primario {
+        background-color: $azul-btn;
+        color: white;
+        font-weight: 600;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        transition: background 0.2s ease;
+
+        &:hover {
+          background-color: darken($azul-btn, 10%);
+        }
+      }
+
+      .btn-secundario {
+        background-color: white;
+        color: #1f2937;
+        font-weight: 500;
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+        border: 1px solid #d1d5db;
+        cursor: pointer;
+        transition: background 0.2s ease;
+
+        &:hover {
+          background-color: #f3f4f6;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .cirugia-info {
+    padding: 3.2rem;
+  }
+}

@@ -248,7 +248,40 @@
     </div>
 </div>
 
+</div> <!-- .contenedor-cirugias -->
+
+<section class="cirugia-info">
+    <div class="bloques-cirugia">
+        <div class="bloque bloque-antes">
+            <h3>Antes de la Cirugía</h3>
+                <ul>
+                    <li>Evaluación médica completa</li>
+                    <li>Estudios preoperatorios (sangre, ECG, etc.)</li>
+                    <li>Ayuno según indicaciones médicas</li>
+                    <li>Suspender medicamentos según indicación</li>
+                </ul>
+        </div>
+
+    <div class="bloque bloque-despues">
+        <h3>Después de la Cirugía</h3>
+            <ul>
+                <li>Seguimiento médico regular</li>
+                <li>Medicamentos según prescripción</li>
+                <li>Reposo y cuidados específicos</li>
+                <li>Evitar actividades físicas intensas</li>
+            </ul>
+    </div>
 </div>
+
+<div class="evaluacion">
+    <h3>¿Necesitas una Evaluación Quirúrgica?</h3>
+    <p>Nuestro especialista evaluará tu caso específico y te explicará detalladamente el procedimiento más adecuado para ti.</p>
+    <div class="botones">
+        <a href="https://wa.me/2461567821" class="btn-primario">Agendar Consulta</a>
+    </div>
+</div>
+</section>
+
 
 
 
